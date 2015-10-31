@@ -1,3 +1,5 @@
+execute pathogen#infect() 
+
 " Indent automatically depending on filetype
 filetype indent on
 set autoindent
@@ -7,7 +9,7 @@ set number
 
 " Set syntax on
 syntax on
-"color Dracula
+color Dracula
 
 " Case insensitive search
 set ic
